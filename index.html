@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name=cache-control content=no-cache,no-store,must-revalidate>
+    <title> Egg CSS </title>
+    <link rel=stylesheet href=egg.css>
+</head>
+<body>
+    <h1> This is Egg CSS. </h1>
+    <h2> A CSS framework designed with neatness in mind—minus the complicated stuff! </h2>
+    <h3> Just type it in! No need to think about widths and heights. </h3>
+    <p> Plus, it's pretty lightweight too. </p>
+    <p> The signs below are in a flex box. </p>
+    <div flex>
+        <div sign contain=good> This is a good sign. </div>
+        <div sign contain=warning> This is kind of not a good sign. </div>
+        <div sign contain=alert> This is kind of a worse sign. </div>
+        <div sign contain=danger> This is not a good sign. </div>
+        <div sign contain=dark> This is a dark sign. </div>
+        <div sign contain=light> This is a light sign. </div>
+        <div sign contain=white> This is a white sign. </div>
+        <div sign contain=info> This is an info sign. </div>
+        <div sign contain> This is the default sign. </div>
+        <div sign contain=secondary> This is the secondary sign. </div>
+    </div>
+    <p> These ones below are in a flex box too but upright. </p>
+    <div flex=vertical>
+        <div sign contain=good> This is a good sign. </div>
+        <div sign contain=warning> This is kind of not a good sign. </div>
+        <div sign contain=alert> This is kind of a worse sign. </div>
+        <div sign contain=danger> This is not a good sign. </div>
+        <div sign contain=dark> This is a dark sign. </div>
+        <div sign contain=light> This is a light sign. </div>
+        <div sign contain=white> This is a white sign. </div>
+        <div sign contain=info> This is an info sign. </div>
+        <div sign contain> This is the default sign. </div>
+        <div sign contain=secondary> This is the secondary sign. </div>
+    </div>
+    <p bold> This text is in bold. </p>
+    <p italic> This text is in italic. </p>
+    <p underline> This text is underlined. </p>
+    <p> The buttons below are made with the 'button' and 'contain' attributes, and placed inside a flex box. </p>
+    <div flex>
+        <a href=# button contain=good> This is actually a link but it's made to look like a button. </a>
+        <a href=# button contain=warning> This is actually a link but it's made to look like a button. </a>
+        <a href=# button contain=alert> This is actually a link but it's made to look like a button. </a>
+        <a href=# button contain=danger> This is actually a link but it's made to look like a button. </a>
+        <a href=# button contain=dark> This is actually a link but it's made to look like a button. </a>
+        <a href=# button contain=light> This is actually a link but it's made to look like a button. </a>
+        <a href=# button contain=white> This is actually a link but it's made to look like a button. </a>
+        <a href=# button contain=info> This is actually a link but it's made to look like a button. </a>
+        <a href=# button contain> This is actually a link but it's made to look like a button. </a>
+        <a href=# button contain=secondary> This is actually a link but it's made to look like a button. </a>
+    </div>
+    <p> Below are buttons using the 'button' and 'contain' attributes, placed in a flex box. </p>
+    <div flex>
+        <button button contain=good> This is a button. </button>
+        <button button contain=warning> This is a button. </button>
+        <button button contain=alert> This is a button. </button>
+        <button button contain=danger> This is a button. </button>
+        <button button contain=dark> This is a button. </button>
+        <button button contain=light> This is a button. </button>
+        <button button contain=white> This is a button. </button>
+        <button button contain=info> This is a button. </button>
+        <button button contain> This is a button. </button>
+        <button button contain=secondary> This is a button. </button>
+    </div>
+    <p><a href=# link>This</a> is a link in a paragraph. </p>
+    <p> Below is a table with buttons using <a href=https://fonts.google.com/icons link>Google Material Icons</a>. </p>
+    <div overflow>
+        <table table contain=light style=width:750px;>
+            <thead>
+                <th> Date </th>
+                <th> Name </th>
+                <th> Status </th>
+                <th> Actions </th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td> 03/16/2019 </td>
+                    <td> John Applebees </td>
+                    <td> Active </td>
+                    <td flex=auto nowrap>
+                        <a href=# button contain cram withicon><span class='material-icons white'>description</span>View</a>
+                        <a href=# button contain=secondary cram withicon><span class='material-icons white'>edit</span>Edit</a>
+                        <a href=# button contain=danger cram withicon><span class='material-icons white'>delete</span>Delete</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td> 05/11/2019 </td>
+                    <td> Maribelle Baker </td>
+                    <td> Active </td>
+                    <td flex=auto nowrap>
+                        <a href=# button contain cram withicon><span class='material-icons white'>description</span>View</a>
+                        <a href=# button contain=secondary cram withicon><span class='material-icons white'>edit</span>Edit</a>
+                        <a href=# button contain=danger cram withicon><span class='material-icons white'>delete</span>Delete</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td> 05/11/2020 </td>
+                    <td> Jordan Miller </td>
+                    <td> Inactive </td>
+                    <td flex=auto nowrap>
+                        <a href=# button contain cram withicon><span class='material-icons white'>description</span>View</a>
+                        <a href=# button contain=secondary cram withicon><span class='material-icons white'>edit</span>Edit</a>
+                        <a href=# button contain=danger cram withicon><span class='material-icons white'>delete</span>Delete</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
